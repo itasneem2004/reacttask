@@ -6,7 +6,6 @@ import Logo2 from '../../assets/3.jpg';
 import Logo3 from '../../assets/5.jpg';
 import Footer from '../layout/footer.js';
 import Carousel from 'react-bootstrap/Carousel';
-import Logo4 from '../../assets/6.jpg';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -59,12 +58,12 @@ const index = () => {
       <Container>
         <Row className="align-item-start">
           <Col xs={12} md={6}>
-            <img src={Img1} height={350} width={350} />
+            <img src={Img1} height={450} width={450} />
           </Col>
           <Col xs={12} md={6} className="text-start">
           <h1>WHAT IS NDA</h1>
           <h2>(NATIONAL DEFENCE ACADEMY)</h2>
-          <p>The National Defence Academy (NDA) is a premier military academy in India that trains future leaders of the Indian Armed Forces.The National Defence Academy is a cornerstone institution for the Indian Armed Forces, providing rigorous training and education to future military leaders. Its comprehensive approach to training ensures that cadets are well-prepared for the challenges of military service and leadership.</p>
+          <p>The National Defence Academy (NDA) stands as a beacon of excellence, where future leaders of India are forged through rigorous training and unwavering discipline. Here, young minds and bodies are sculpted to become the defenders of our nation's values and sovereignty. Embracing the challenges of the NDA is not merely a step towards a career in the armed forces; it is a commitment to a lifetime of honor, courage, and service. As cadets rise through the ranks, they embody the spirit of resilience and patriotism, ready to face any adversities with integrity and determination. The NDA instills in its cadets the belief that through hard work and dedication, they can achieve greatness and contribute significantly to the security and progress of their country.The National Defence Academy is a cornerstone institution for the Indian Armed Forces, providing rigorous training and education to future military leaders. Its comprehensive approach to training ensures that cadets are well-prepared for the challenges of military service and leadership.</p>
           </Col>
           </Row>
       </Container>
